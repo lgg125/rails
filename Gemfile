@@ -60,7 +60,7 @@ gem "rexml", require: false
 
 # for railties
 gem "bootsnap", ">= 1.4.4", require: false
-gem "webrick", require: false
+gem "webrick", ">= 1.8.2", require: false
 
 # Active Job
 group :job do
@@ -92,7 +92,7 @@ end
 # Active Storage
 group :storage do
   gem "aws-sdk-s3", require: false
-  gem "google-cloud-storage", "~> 1.11", require: false
+  gem "google-cloud-storage", "~> 1.48", ">= 1.48.0", require: false
   gem "azure-storage-blob", "~> 2.0", require: false
 
   gem "image_processing", "~> 1.2"
